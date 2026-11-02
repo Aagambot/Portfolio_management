@@ -38,3 +38,12 @@ override.tf.json
 .idea/
 *.swp
 *.swo
+
+# Agent & Workflow Planning Docs
+AGENTS.md
+docs/
+intent.md
+spec.md
+plan.md
+
+
