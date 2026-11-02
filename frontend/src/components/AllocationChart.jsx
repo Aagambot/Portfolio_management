@@ -83,3 +83,4 @@ export default function AllocationChart({ allocations = [], totalValue = 0 }) {
     </div>
   );
 }
+

@@ -28,3 +28,4 @@ class CsvImportResult(BaseModel):
     imported_count: int
     errors: List[str]
     message: str
+

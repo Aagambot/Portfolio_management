@@ -87,3 +87,4 @@ def get_performance_history(
     _verify_portfolio_access(db, portfolio_id, current_user)
     _, perf_points = calculate_portfolio_risk_metrics(db, portfolio_id)
     return perf_points
+

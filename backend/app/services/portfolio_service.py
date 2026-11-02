@@ -155,3 +155,4 @@ def calculate_portfolio_holdings(db: Session, portfolio_id: int) -> Tuple[List[H
     )
 
     return holdings_list, summary, allocations
+

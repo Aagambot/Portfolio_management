@@ -104,3 +104,4 @@ def test_performance_history_endpoint(client, auth_headers, test_portfolio):
         assert "date" in points[0]
         assert "portfolio_value" in points[0]
         assert "benchmark_normalized" in points[0]
+

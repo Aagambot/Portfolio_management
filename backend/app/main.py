@@ -226,3 +226,4 @@ def health_check():
         "risk_free_rate": settings.RISK_FREE_RATE,
         "timestamp": datetime.now(timezone.utc).isoformat()
     }
+

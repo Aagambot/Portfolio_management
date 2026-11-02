@@ -17,3 +17,4 @@ output "rds_endpoint" {
   description = "Database connection endpoint for PostgreSQL"
   value       = aws_db_instance.postgres.endpoint
 }
+

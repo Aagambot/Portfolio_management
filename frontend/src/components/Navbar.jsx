@@ -161,3 +161,4 @@ export default function Navbar({ onOpenCsvModal, onOpenTxModal, onOpenNewPortfol
     </header>
   );
 }
+

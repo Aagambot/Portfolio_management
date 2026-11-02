@@ -63,3 +63,4 @@ def get_current_admin(
             detail="Access forbidden: Administrator privileges required"
         )
     return current_user
+

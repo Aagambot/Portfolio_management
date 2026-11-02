@@ -175,3 +175,4 @@ def get_historical_price_series(symbols: List[str], days: int = 365) -> pd.DataF
             df[sym] = prices
 
     return df.ffill().bfill()
+

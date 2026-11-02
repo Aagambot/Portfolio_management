@@ -56,3 +56,4 @@ def test_preview_csv_validation(client, auth_headers, test_portfolio):
     assert data["total_rows"] == 2
     assert data["valid_rows_count"] == 1
     assert data["error_rows_count"] == 1
+

@@ -55,3 +55,4 @@ class PerformancePoint(BaseModel):
     portfolio_value: float
     invested_value: float
     benchmark_normalized: float
+

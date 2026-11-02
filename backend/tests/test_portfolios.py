@@ -35,3 +35,4 @@ def test_delete_portfolio(client, auth_headers, test_portfolio):
     # Verify 404 after deletion
     check = client.get(f"/api/v1/portfolios/{test_portfolio.id}", headers=auth_headers)
     assert check.status_code == 404
+

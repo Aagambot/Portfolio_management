@@ -58,3 +58,4 @@ variable "ecs_task_memory" {
   type        = number
   default     = 1024
 }
+

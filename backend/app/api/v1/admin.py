@@ -30,3 +30,4 @@ def get_system_stats(
         "monitored_region": "ap-south-1 (Mumbai)",
         "admin_email": admin.email
     }
+

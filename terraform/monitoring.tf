@@ -64,3 +64,4 @@ resource "aws_cloudwatch_metric_alarm" "alb_5xx_errors" {
     Name = "${var.app_name}-5xx-alarm"
   }
 }
+

@@ -103,3 +103,4 @@ export default function NewPortfolioModal({ isOpen, onClose, onPortfolioCreated 
     </div>
   );
 }
+

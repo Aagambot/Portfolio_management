@@ -69,3 +69,4 @@ def login_user(user_in: UserLogin, db: Session = Depends(get_db)):
 def get_current_user_profile(current_user: User = Depends(get_current_user)):
     """Retrieve profile details for the authenticated user."""
     return UserResponse.model_validate(current_user)
+

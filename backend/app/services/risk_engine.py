@@ -181,3 +181,4 @@ def calculate_portfolio_risk_metrics(db: Session, portfolio_id: int) -> Tuple[Ri
     )
 
     return risk_response, perf_points
+

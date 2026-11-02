@@ -256,3 +256,4 @@ export default function TransactionModal({ isOpen, onClose, portfolioId, onTrans
     </div>
   );
 }
+

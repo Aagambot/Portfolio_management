@@ -71,3 +71,4 @@ def test_admin_route_allowed_for_admin(client, admin_headers, test_admin):
     data = response.json()
     assert data["status"] == "healthy"
     assert data["admin_email"] == test_admin.email
+

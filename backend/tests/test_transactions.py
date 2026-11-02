@@ -113,3 +113,4 @@ def test_successful_partial_sell(client, auth_headers, test_portfolio):
     assert holdings_resp.status_code == 200
     infy_holding = next(h for h in holdings_resp.json() if h["symbol"] == "INFY.NS")
     assert infy_holding["quantity"] == 6.0
+

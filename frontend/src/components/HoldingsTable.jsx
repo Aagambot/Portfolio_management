@@ -223,3 +223,4 @@ export default function HoldingsTable({ holdings = [], onAddTrade }) {
     </div>
   );
 }
+

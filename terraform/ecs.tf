@@ -140,3 +140,4 @@ resource "aws_ecs_service" "backend" {
     Name = "${var.app_name}-ecs-service"
   }
 }
+

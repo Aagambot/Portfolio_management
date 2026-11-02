@@ -15,3 +15,4 @@ class Asset(Base):
     current_price = Column(Float, nullable=False)
     currency = Column(String(10), default="INR", nullable=False)
     last_updated = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
+

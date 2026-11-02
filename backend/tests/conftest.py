@@ -100,3 +100,4 @@ def test_portfolio(db_session, test_user):
     db_session.commit()
     db_session.refresh(portfolio)
     return portfolio
+

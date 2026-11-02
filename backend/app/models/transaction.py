@@ -21,3 +21,4 @@ class Transaction(Base):
     notes = Column(Text, nullable=True)
 
     portfolio = relationship("Portfolio", back_populates="transactions")
+
