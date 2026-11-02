@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+portfolio.db
+
+# Node
+node_modules/
+dist/
+.npm
+*.log
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
