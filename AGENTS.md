@@ -25,6 +25,8 @@ Financial Portfolio Management Dashboard built with FastAPI, React, PostgreSQL/S
 - Run tests: `npm --prefix frontend test`
 
 ## Known Mistakes & Rules
+- In Windows PowerShell, use `;` instead of `&&` to chain terminal commands.
+- Use `python -m pip install` to target the active Python interpreter environment.
 - Do not commit secrets or credentials.
 - Work on a branch and never push directly to main.
 - Never edit or skip tests to make them pass; fix the underlying code.
